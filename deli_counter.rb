@@ -21,7 +21,7 @@ def line(katz_deli)
   else
     message = "The line is currently: "
 
-    katz_deli.each_with)index(1) do |name, i|
+    katz_deli.each_with_index(1) do |name, i|
       message << "#{i}. #{name}"
     end
     puts message
