@@ -22,7 +22,7 @@ def line(arr)
     message = "The line is currently: "
 
     arr.each_with_index do |name, index|
-      message << "#{index+1}. #{name}"
+      message << "#{index+1}. #{name} "
     end
     puts message
   end
