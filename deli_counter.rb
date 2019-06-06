@@ -21,8 +21,8 @@ def line(arr)
   else
     message = "The line is currently: "
 
-    arr.each_with_index(1) do |name, i|
-      message << "#{i}. #{name}"
+    arr.each_with_index do |name, index|
+      message << "#{index+1}. #{name}"
     end
     puts message
   end
