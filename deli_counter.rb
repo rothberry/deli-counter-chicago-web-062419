@@ -3,7 +3,7 @@ katz_deli = []
 
 def take_a_number(arr, name)
   arr.push(name)
-  puts "Welcome, #{name}. You are #{arr.length} in line."
+  puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
 
 # def line(arr)
