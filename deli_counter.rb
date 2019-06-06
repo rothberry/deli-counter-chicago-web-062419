@@ -19,10 +19,10 @@ def line(arr)
   if arr.length == 0
     puts "The line is currently empty."
   else
-    message = "The line is currently: "
+    message = "The line is currently:"
 
     arr.each_with_index do |name, index|
-      message << "#{index+1}. #{name} "
+      message << " #{index+1}. #{name}"
     end
     puts message
   end
