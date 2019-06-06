@@ -19,7 +19,11 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
+    message - "The line is currently: "
 
-    puts "People are here"
+    katz_deli.each do |name, i|
+      message << "#{i}. #{name}"
+    end
+    puts message
   end
 end
